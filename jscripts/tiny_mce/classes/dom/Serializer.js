@@ -531,6 +531,7 @@
 						{pattern : /(<noscript[^>]*>)(.*?)(<\/noscript>)/g},
 						{pattern : /(<style[^>]*>)(.*?)(<\/style>)/g},
 						{pattern : /(<pre[^>]*>)(.*?)(<\/pre>)/g, encode : 1},
+						{pattern : /(<markdown[^>]*>)(.*?)(<\/markdown>)/g, encode : 1},
 						{pattern : /(<!--\[CDATA\[)(.*?)(\]\]-->)/g}
 					]
 				});
